@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.head{
+    background-color: #018abd;
+    text-align: center;
+    padding: 75px 0;
+}
+.avatar{
+    width: 350px;
+    border-radius: 100px;
+    margin: 15px auto;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.head p{
+    font-size: 24px;
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    justify-content: space-around;   
+}
+.el{
+    min-width: 200px;
+    width: 40%;
+    margin: 20px 10px;
+    border-radius: 10px;
+    background-color: #97cbdc;
+}
+.project-img{
+    width: 85%;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+.project-heading{
+    font-size: 28px;
+}
+.project-link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 25px 0;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.project-link:hover{
+    background-color: gray;
+    color: black;
+}
+.instagram{
+    margin: 20px 15px;
+    text-decoration: none;
+    padding: 12px 24px;
+    background: linear-gradient(to top left, rgb(255, 166, 0), rgb(89, 0, 255));
+    display: inline-block;
+    border-radius: 10px;
+    color: rgb(60, 25, 83);
+    transition: all 1s ease;
+}
+.instagram:hover{
+    background: linear-gradient(to bottom right, rgb(255, 166, 0), rgb(89, 0, 255));
+}
+.facebook{
+    margin: 20px 15px;
+    text-decoration: none;
+    padding: 12px 24px;
+    background: linear-gradient(to top left, rgb(40, 110, 240), rgb(34, 4, 143));
+    display: inline-block;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.719);
+    transition: all 1s ease;
+}
+.facebook:hover{
+    background: linear-gradient(to bottom right, rgb(8, 74, 196), rgb(27, 4, 109));
+}

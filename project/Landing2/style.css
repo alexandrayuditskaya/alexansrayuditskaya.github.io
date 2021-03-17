@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.menu{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(68, 1, 68);
+    padding: 15px 20px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.menu a{
+    width: 100%;
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.menu a:hover{
+    color: rgb(68, 1, 68);
+    background-color: white;
+}
+.main{
+    margin: 20px 50px 0 300px;
+}
+.main img{
+    width: 40%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+.main img:hover{
+    opacity: 1;
+
+}
+h2{
+    font-size: 40px;
+    color: rgb(68, 1, 68);
+    margin: 20px 0;
+}
+h1{
+    font-size: 50px;
+}
+hr{
+    border: 5px solid rgb(68, 1, 68);
+    border-radius: 10px;
+    margin: 15px 0;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    display:block; box-sizing: border-box;
+}
+label{
+    font-size: 24px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(68, 1, 68);
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(152, 13, 156);
+}
